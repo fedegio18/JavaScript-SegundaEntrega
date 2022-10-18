@@ -1,0 +1,16 @@
+/* MIXIN BOTONES CON ESTILO*/
+@mixin botonesEstilo {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #034748;
+    border-width: 0.3rem;
+    margin: 0.5rem;
+    padding: 0.5rem
+    
+}
+
+.boton{
+    @include botonesEstilo;
+}

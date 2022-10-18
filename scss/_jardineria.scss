@@ -1,0 +1,21 @@
+.jardineria{
+    background-image: url(../imagenes/cursos2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    border-radius: 3rem;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    
+    h3{
+        color: #ffffff;
+    }
+}
+
+.jardineriaCurs{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}

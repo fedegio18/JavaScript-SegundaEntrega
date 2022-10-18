@@ -1,0 +1,7 @@
+$mapTitulos:(tituloUno: 2.5rem, tituloDos:2rem, tituloTres:1.5rem);
+
+@each $titulosFont, $value-titulo in $mapTitulos{
+    .#{$titulosFont} {
+        font-size: $value-titulo;
+    }
+}

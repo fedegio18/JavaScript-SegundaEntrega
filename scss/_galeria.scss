@@ -1,0 +1,53 @@
+
+ .d-block{
+      height: 20rem;
+      width: 100%;
+      border-style: solid;
+      border-radius: 2rem;
+
+}
+
+
+
+.flechaG{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+
+/*.contenedorImg{
+    width: 25rem;
+    height: 15.5rem;
+    background-image:url(../imagenes/riegoG4.jpg) ;
+    border-style: solid;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+
+}*/
+
+.buttonGaleria{
+     @include botonesEstilo;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    
+}
+
+.galeriaParrafo{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+}
+
+.logos{
+    width: 3%;
+}
+
+.tituloH2{
+    border-bottom: black ;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,900&family=Roboto+Slab:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    
+}
+// Nav index -------------------------
+.header{
+    background-color: #000000;
+    border-style: solid;
+    // border-radius: 15rem;
+}
+.imgTitulo{
+    width: 10%;
+    height: 10%;
+}
+.tituloIndex h1{
+    color: #ffffff;
+    font-size: 3rem;
+
+}
+
+.nav-link{
+    color: $colorFuente;
+    font-size: 1.0rem;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    color: $colorFuente;
+    font-size: 1.5rem;
+    opacity: 50%;
+}
+
+
+.imgIndex1{
+    width: 25rem;
+    height: 15.5rem;
+    border-style: solid;
+    border-radius: 2rem;
+}
+
+.pruebadale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// .tituloh2{
+//     margin: 2rem;
+// }
+
+.servicios{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.fotosRedes{
+    width: 2%;
+}
+
+footer{
+    padding: 1rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer div p{
+    color: $colorFuente;
+}
+
+footer div strong{
+    color: $colorFuente;
+}
+
+.button{
+    background-color: $colorFuente;
+}
+ @media screen and (max-width: 768px){
+
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+ .pruebaImg{
+     display: flex;
+     flex-direction: column-reverse;
+
+}
+.tituloIndex{
+    h1{text-align: center;}
+    
+}
+.imgIndex1{
+    width: 20rem;
+    height: 12rem;
+    border-style: solid;
+    border-radius: 2rem;
+}
+
+footer{
+    text-align: center;
+}
+.fotosRedes{
+    width: 8%;
+}
+ }
+
+ .servicios{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3{
+    text-transform: uppercase;
+    // font-weight: bold;
+}
